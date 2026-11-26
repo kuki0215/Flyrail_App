@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlyRail | Travel Made Simple</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <span class="brand-mark"><i class="bi bi-send-fill"></i></span><span>FlyRail</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#train">Train Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="#flight">Flight Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#passenger">Passenger Details</a></li>
+          <li class="nav-item"><a class="btn btn-purple btn-sm px-4" href="#confirmation">My Booking</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <span class="eyebrow">YOUR NEXT ADVENTURE STARTS HERE</span>
+            <h1>Your Journey,<br><span class="purple-text">Our Priority!</span></h1>
+            <p class="lead-copy">Easy bookings. Comfortable journeys. Unforgettable destinations. Explore India by air and rail.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-purple btn-lg" href="#train"><i class="bi bi-train-front me-2"></i>Book a Train</a>
+              <a class="btn btn-outline-purple btn-lg" href="#flight"><i class="bi bi-airplane me-2"></i>Book a Flight</a>
+            </div>
+            <div class="hero-points mt-4">
+              <span><i class="bi bi-shield-check"></i> Secure booking</span>
+              <span><i class="bi bi-headset"></i> 24/7 support</span>
+              <span><i class="bi bi-lightning-charge"></i> Quick checkout</span>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="hero-photo">
+              <img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=1400&q=85" alt="Train travelling through a scenic landscape">
+              <div class="photo-caption"><span>Explore more, worry less</span><strong>Every journey tells a story.</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-overview section-pad">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="eyebrow">PLAN YOUR TRIP</span>
+          <h2>Where would you like to go?</h2>
+          <p>Choose your travel option and find the journey that suits you.</p>
+        </div>
+        <div class="booking-panel mx-auto">
+          <div class="booking-tabs">
+            <a href="#train" class="booking-tab active"><i class="bi bi-train-front me-2"></i>Train Booking</a>
+            <a href="#flight" class="booking-tab"><i class="bi bi-airplane me-2"></i>Flight Booking</a>
+          </div>
+          <div class="row g-3 p-4">
+            <div class="col-md-5"><label>FROM</label><div class="field-box"><i class="bi bi-geo-alt"></i><span>Mumbai</span><small>CSMT, Maharashtra</small></div></div>
+            <div class="col-md-2 d-flex align-items-center justify-content-center"><span class="swap-icon"><i class="bi bi-arrow-left-right"></i></span></div>
+            <div class="col-md-5"><label>TO</label><div class="field-box"><i class="bi bi-geo-alt"></i><span>Goa</span><small>Madgaon, Goa</small></div></div>
+            <div class="col-md-6"><label>JOURNEY DATE</label><div class="field-box compact"><i class="bi bi-calendar3"></i><span>15 Jun 2027</span></div></div>
+            <div class="col-md-6"><label>PASSENGERS</label><div class="field-box compact"><i class="bi bi-people"></i><span>1 Adult</span></div></div>
+            <div class="col-12"><a href="#train" class="btn btn-purple w-100 py-3">Search journeys <i class="bi bi-arrow-right ms-2"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="train" class="section-pad soft-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">TRAIN RESERVATIONS</span>
+          <h2>Your way to Goa</h2>
+          <p>Find a comfortable train and make your next trip memorable.</p>
+        </div>
+        <div class="route-banner"><div><span>YOUR ROUTE</span><h4>Mumbai <i class="bi bi-arrow-right"></i> Goa</h4><small>15 Jun 2027 · 1 Adult · One way</small></div><span class="route-tag">TRAIN</span></div>
+        <div class="row g-4 mt-1">
+          <div class="col-lg-6">
+            <article class="journey-card">
+              <div class="d-flex justify-content-between"><div><span class="eyebrow">RECOMMENDED</span><h4>Vande Bharat Express</h4><p class="muted">22119 · AC Chair Car</p></div><span class="class-tag">CHAIR CAR</span></div>
+              <div class="time-line"><div><strong>06:10</strong><small>CSMT · Mumbai</small></div><div class="duration"><span>7h 50m</span><hr><small>Direct</small></div><div class="text-end"><strong>14:00</strong><small>Madgaon · Goa</small></div></div>
+              <div class="card-bottom"><div><small>Starting from</small><h3>₹1,250</h3></div><a href="#passenger" class="btn btn-purple">Book Now</a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="journey-card">
+              <div class="d-flex justify-content-between"><div><span class="eyebrow">ALTERNATIVE</span><h4>Konkan Kanya Express</h4><p class="muted">20111 · Sleeper / 3A</p></div><span class="class-tag">3A CLASS</span></div>
+              <div class="time-line"><div><strong>23:05</strong><small>CSMT · Mumbai</small></div><div class="duration"><span>10h 35m</span><hr><small>Direct</small></div><div class="text-end"><strong>09:40</strong><small>Madgaon · Goa</small></div></div>
+              <div class="card-bottom"><div><small>Starting from</small><h3>₹890</h3></div><a href="#passenger" class="btn btn-purple">Book Now</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="tip-box mt-4"><i class="bi bi-lightbulb"></i><div><strong>A little clarity goes a long way</strong><p>Review your selected journey, passenger details and fare before continuing.</p></div></div>
+      </div>
+    </section>
+
+    <section id="flight" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">FLIGHT RESERVATIONS</span>
+          <h2>Your way to Goa</h2>
+          <p>Compare flight options and reach your destination sooner.</p>
+        </div>
+        <div class="route-banner"><div><span>YOUR ROUTE</span><h4>Mumbai <i class="bi bi-arrow-right"></i> Goa</h4><small>15 Jun 2027 · 1 Adult · Economy</small></div><span class="route-tag">FLIGHT</span></div>
+        <div class="row g-4 mt-1">
+          <div class="col-lg-6">
+            <article class="journey-card">
+              <div class="d-flex justify-content-between"><div><span class="eyebrow">RECOMMENDED</span><h4>IndiGo</h4><p class="muted">6E 205 · Economy</p></div><span class="class-tag">FLIGHT</span></div>
+              <div class="time-line"><div><strong>09:10</strong><small>BOM · Mumbai</small></div><div class="duration"><span>1h 15m</span><hr><small>Direct</small></div><div class="text-end"><strong>10:25</strong><small>GOI · Goa</small></div></div>
+              <div class="card-bottom"><div><small>Starting from</small><h3>₹3,899</h3></div><a href="#passenger" class="btn btn-purple">Book Now</a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="journey-card">
+              <div class="d-flex justify-content-between"><div><span class="eyebrow">ALTERNATIVE</span><h4>Air India Express</h4><p class="muted">IX 1123 · Economy</p></div><span class="class-tag">FLIGHT</span></div>
+              <div class="time-line"><div><strong>12:30</strong><small>BOM · Mumbai</small></div><div class="duration"><span>1h 20m</span><hr><small>Direct</small></div><div class="text-end"><strong>13:50</strong><small>GOI · Goa</small></div></div>
+              <div class="card-bottom"><div><small>Starting from</small><h3>₹4,250</h3></div><a href="#passenger" class="btn btn-purple">Book Now</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="tip-box mt-4"><i class="bi bi-info-circle"></i><div><strong>A little clarity goes a long way</strong><p>Check baggage allowance and passenger details before confirming your flight.</p></div></div>
+      </div>
+    </section>
+
+    <section id="destinations" class="section-pad soft-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="eyebrow">FIND YOUR NEXT ESCAPE</span>
+          <h2>A place for every mood.</h2>
+          <p>Big-city energy or a little peace and quiet? Find your kind of getaway.</p>
+        </div>
+        <div class="row g-4 destination-grid">
+          <div class="col-md-6 col-lg-3"><article class="destination-card"><img src="https://images.unsplash.com/photo-1595658658481-d53d3f999875?auto=format&fit=crop&w=700&q=80" alt="Mumbai city"><div><h4>Mumbai</h4><p>City lights and seaside stories.</p><span>MAHARASHTRA</span></div></article></div>
+          <div class="col-md-6 col-lg-3"><article class="destination-card"><img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=700&q=80" alt="Goa beach"><div><h4>Goa</h4><p>Golden beaches and slow mornings.</p><span>WEST COAST</span></div></article></div>
+          <div class="col-md-6 col-lg-3"><article class="destination-card"><img src="https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&w=700&q=80" alt="Jaipur palace"><div><h4>Jaipur</h4><p>Royal palaces and pink-city charm.</p><span>RAJASTHAN</span></div></article></div>
+          <div class="col-md-6 col-lg-3"><article class="destination-card"><img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=700&q=80" alt="Agra Taj Mahal"><div><h4>Agra</h4><p>Timeless beauty and unforgettable views.</p><span>UTTAR PRADESH</span></div></article></div>
+        </div>
+        <div class="destination-note mt-4">Your next story is just a journey away.</div>
+      </div>
+    </section>
+
+    <section id="passenger" class="section-pad">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="eyebrow">ALMOST THERE</span>
+          <h2>Passenger details</h2>
+          <p>Enter your details carefully to complete your booking.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-6">
+            <form class="details-card">
+              <div class="d-flex justify-content-between align-items-center mb-4"><div><span class="eyebrow">TRAIN · 01 JOURNEY</span><h4>Mumbai <i class="bi bi-arrow-right"></i> Goa</h4></div><span class="class-tag">TRAIN</span></div>
+              <p class="muted">Passenger 1 · Adult</p>
+              <div class="row g-3">
+                <div class="col-md-8"><label class="form-label">Full name</label><input class="form-control" type="text" placeholder="Enter your name"></div>
+                <div class="col-md-4"><label class="form-label">Age</label><input class="form-control" type="number" placeholder="Age"></div>
+                <div class="col-12"><label class="form-label">Email address</label><input class="form-control" type="email" placeholder="name@example.com"></div>
+                <div class="col-12"><label class="form-label">Phone number</label><input class="form-control" type="tel" placeholder="+91 98765 43210"></div>
+              </div>
+              <div class="fare-row mt-4"><div><small>Train ticket + booking fee</small><strong>Total amount</strong></div><h3>₹1,300</h3></div>
+              <a href="#confirmation" class="btn btn-purple w-100 mt-3">Continue <i class="bi bi-arrow-right ms-2"></i></a>
+              <p class="fine-print">Your details are safe and secure. Please carry a valid photo ID during your journey.</p>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <form class="details-card">
+              <div class="d-flex justify-content-between align-items-center mb-4"><div><span class="eyebrow">FLIGHT · 01 JOURNEY</span><h4>Mumbai <i class="bi bi-arrow-right"></i> Goa</h4></div><span class="class-tag">FLIGHT</span></div>
+              <p class="muted">Passenger 1 · Adult</p>
+              <div class="row g-3">
+                <div class="col-md-8"><label class="form-label">Full name</label><input class="form-control" type="text" placeholder="Enter your name"></div>
+                <div class="col-md-4"><label class="form-label">Age</label><input class="form-control" type="number" placeholder="Age"></div>
+                <div class="col-12"><label class="form-label">Email address</label><input class="form-control" type="email" placeholder="name@example.com"></div>
+                <div class="col-12"><label class="form-label">Phone number</label><input class="form-control" type="tel" placeholder="+91 98765 43210"></div>
+              </div>
+              <div class="fare-row mt-4"><div><small>Flight ticket + booking fee</small><strong>Total amount</strong></div><h3>₹4,098</h3></div>
+              <a href="#confirmation" class="btn btn-purple w-100 mt-3">Continue <i class="bi bi-arrow-right ms-2"></i></a>
+              <p class="fine-print">Your details are safe and secure. Please carry a valid photo ID during your journey.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="confirmation" class="section-pad soft-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="success-icon"><i class="bi bi-check-lg"></i></span>
+          <h2>You're going to Goa!</h2>
+          <p>Your booking is confirmed. Happy travels!</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-5">
+            <article class="ticket-card">
+              <div class="d-flex justify-content-between"><div><h4>Vande Bharat Express</h4><small>Booking ID: FR-2027-01</small></div><span class="class-tag">TRAIN</span></div>
+              <div class="ticket-route"><div><h2>06:10</h2><small>CSMT · Mumbai</small></div><div class="duration"><span>7h 50m</span><hr><small>Direct</small></div><div class="text-end"><h2>14:00</h2><small>Madgaon · Goa</small></div></div>
+              <div class="ticket-divider"></div><p><strong>Aarav Sharma · 22 years</strong><br><small>15 Jun 2027 · AC Chair Car</small></p>
+              <div class="fare-row"><strong>Total amount</strong><h3>₹1,300</h3></div>
+              <a href="#home" class="btn btn-purple w-100 mt-3"><i class="bi bi-download me-2"></i>Download Ticket</a>
+              <a href="#home" class="back-link">Back to Home</a>
+            </article>
+          </div>
+          <div class="col-lg-5">
+            <article class="ticket-card">
+              <div class="d-flex justify-content-between"><div><h4>IndiGo · 6E 205</h4><small>Booking ID: FR-2027-02</small></div><span class="class-tag">FLIGHT</span></div>
+              <div class="ticket-route"><div><h2>09:10</h2><small>BOM · Mumbai</small></div><div class="duration"><span>1h 15m</span><hr><small>Direct</small></div><div class="text-end"><h2>10:25</h2><small>GOI · Goa</small></div></div>
+              <div class="ticket-divider"></div><p><strong>Aarav Sharma · 22 years</strong><br><small>15 Jun 2027 · Economy</small></p>
+              <div class="fare-row"><strong>Total amount</strong><h3>₹4,098</h3></div>
+              <a href="#home" class="btn btn-purple w-100 mt-3"><i class="bi bi-download me-2"></i>Download Ticket</a>
+              <a href="#home" class="back-link">Back to Home</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home"><span class="brand-mark"><i class="bi bi-send-fill"></i></span><span>FlyRail</span></a>
+      <p class="mb-0">Making every journey simple, comfortable and memorable.</p>
+      <span>© 2027 FlyRail. All rights reserved.</span>
+    </div>
+  </footer>
+</body>
+</html>
